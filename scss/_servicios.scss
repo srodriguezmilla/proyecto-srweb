@@ -1,0 +1,16 @@
+/* Servicios */
+@import 'variables';
+#servicios {
+    h2 {
+        color: $color2;
+    }
+}
+
+#servicios {
+    background-color: $color1;
+    div {
+        font-family: $fuente;
+        color: $color2;
+    }
+}
+    /* Fin Servicios */

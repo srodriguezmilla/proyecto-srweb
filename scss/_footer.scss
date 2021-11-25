@@ -1,0 +1,30 @@
+/* Footer */
+@import 'variables';
+
+#footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .row {
+        .copyright {
+            p {
+                color: $color1;
+                padding-left: 50px;
+            }
+        }
+    }
+}
+#footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .row {
+        .iconos-rrss {
+            padding-right: 50px;
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+/* Fin Footer */
