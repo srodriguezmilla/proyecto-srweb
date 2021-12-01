@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "<h1 align=\"center\">Hi 👋, I'm Sebastián Rodríguez</h1> <h3 align=\"center\">A passionate frontend developer from Chile</h3>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srodriguezmilla/proyecto-v3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srodriguezmilla/proyecto-v3/issues"
+  },
+  "homepage": "https://github.com/srodriguezmilla/proyecto-v3#readme"
 }
