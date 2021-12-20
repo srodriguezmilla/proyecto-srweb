@@ -74,7 +74,8 @@
 
                 <p>Somos tu partner #digital. Planificamos, diseñamos y
                     ejecutamos tu estrategia digital.</p>
-
+                <p>Nos encargamos de diseñar y desarrollar tu sitio web desde una hoja en blanco. Planeamos y ejecutamos tu estrategia de Marketing Digital en Google y Redes Sociales. </p>
+                <p>Alojamos tu sitio web en nuestros propios servidores: 100% seguros, veloces y con seguridad SSL</p>
                 <button class="boton-inicio pt-3 pb-3 mb-5"><a href="#contacto">¡Cotiza Ahora!</a></button>
             </div>
 
@@ -150,23 +151,23 @@
         <div class="container-fluid row pt-2 pb-5">
             <div class="col-lg-3 col-sm-12 text-center">
                 <img src="images/web-ochotierras.jpg" class="d-block w-100" alt="web-ochotierras">
-                <h3 class="title-h3">Diseño Web</h3>
-                <a href="https://www.ochotierras.cl">Viña Ochotierras</a>
+                <h3 class="title-h3">Web Corporativa y Tienda en Línea</h3>
+                <a href="https://www.ochotierras.cl" target="_blank">Viña Ochotierras</a>
             </div>
             <div class="col-lg-3 col-sm-12 text-center">
                 <img src="images/web-carmona.jpg" class="d-block w-100" alt="web-carmonaycia">
-                <h3 class="title-h3">Diseño Web</h3>
-                <a href="https://www.carmonaycia.cl">Automotriz Carmona</a>
+                <h3 class="title-h3">Catálogo Automotriz</h3>
+                <a href="https://www.carmonaycia.cl" target="_blank">Automotriz Carmona</a>
             </div>
             <div class="col-lg-3 col-sm-12 text-center">
                 <img src="images/web-startour.jpg" class="d-block w-100" alt="web-startour">
-                <h3 class="title-h3">Diseño Web</h3>
-                <a href="https://www.startour.cl">Startour</a>
+                <h3 class="title-h3">Web Corporativa y Pago en Línea</h3>
+                <a href="https://www.startour.cl" target="_blank">Startour</a>
             </div>
             <div class="col-lg-3 col-sm-12 text-center">
                 <img src="images/web-prefabricadas.jpg" class="d-block w-100" alt="web-casas-prefabricadas">
-                <h3 class="title-h3">Diseño Web</h3>
-                <a href="https://www.prefabricadaslaserena.cl">Prefabricadas La Serena</a>
+                <h3 class="title-h3">Catálogo de Casas Prefabricadas</h3>
+                <a href="https://www.prefabricadaslaserena.cl" target="_blank">Prefabricadas La Serena</a>
             </div>
         </div>
 
@@ -200,45 +201,43 @@
     <section class="mt5 background-2 container-fluid pb-5" id="contacto">
         <h2 class="display-4 text-center pt-5"> <strong class="title-h2">Contáctanos Ahora</strong></h2>
         <p class="parrafo-p">Completa tus datos y responderemos tu solicitud a la brevedad</p>
-        <!-- Linea Formulario 1 -->
-        <div class="container-fluid row g-2">
-            <div class="col-md">
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="nombre" id="floatingTextarea"></textarea>
-                    <label for="floatingTextarea">Nombre Completo</label>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="correo@tucorreo.cl">
-                    <label for="floatingInputGrid">Dirección de Correo</label>
-                </div>
-            </div>
-        </div>
 
-        <!-- Linea Formulario 2 -->
-        <div class="container-fluid row g-2 mt-1 mb-1">
-            <div class="col-md">
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="telefono" id="floatingTextarea"></textarea>
-                    <label for="floatingTextarea">Teléfono</label>
-                </div>
+        <form class="container-fluid">
+            <!-- Nombre -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form4Example1" class="form-control" />
+              <label class="form-label" for="formNombre">Nombre</label>
             </div>
-            <div class="col-md">
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="ciudad" id="floatingTextarea"></textarea>
-                    <label for="floatingTextarea">Ciudad</label>
-                </div>
+          
+            <!-- Email -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" />
+              <label class="form-label" for="formCorreo">Dirección de Correo</label>
             </div>
-        </div>
-        <!-- Linea Formulario 3 -->
-        <div class="col-md container-fluid">
-            <div class="form-floating">
-                <textarea class="form-control" placeholder="comentarios" id="floatingTextarea2"
-                    style="height: 120px"></textarea>
-                <label for="comentarios">Comentarios</label>
+          
+            <!-- Mensaje-->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+              <label class="form-label" for="formMensaje">Mensaje</label>
             </div>
-        </div>
+          
+            <!-- Check -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input
+                class="form-check-input me-2"
+                type="checkbox"
+                value=""
+                id="formCheck"
+                checked
+              />
+              <label class="form-check-label" for="formMensaje">
+                Envíame una copia de este mensaje
+              </label>
+            </div>
+          
+            <!-- Boton Enviar -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Enviar Mensaje</button>
+          </form>
 
     </section>
     <!-- Fin Contacto -->

@@ -61,6 +61,7 @@ header nav {
 #inicio div div p {
   font-size: 20px;
   color: #6d6d6d;
+  text-align: justify;
 }
 
 #inicio div div button {
@@ -107,6 +108,13 @@ header nav {
   color: #ff442e;
 }
 
+#portafolio div a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+
 /* Fin Portafolio */
 /* Clientes */
 /* Colores */
@@ -138,6 +146,12 @@ header nav {
 
 #contacto p {
   text-align: center;
+}
+
+#contacto form button {
+  background-color: #ff442e;
+  border: none;
+  align-content: center;
 }
 
 /* Fin Contacto */

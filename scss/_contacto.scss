@@ -9,9 +9,20 @@
         color: $color1;
         }
     }
-}#contacto {
+}
+#contacto {
     p {
         text-align: center;
     }
-} 
+}
+
+#contacto {
+    form {
+       button {
+           background-color: $color1;
+           border: none;
+           align-content: center;
+       } 
+    }
+}
 /* Fin Contacto */
