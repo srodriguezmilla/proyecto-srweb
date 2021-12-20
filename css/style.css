@@ -43,6 +43,9 @@ header nav {
 /* Inicio */
 /* Colores */
 /* Tipografías */
+#inicio {
+  padding-top: 100px;
+}
 #inicio div div h1 {
   background-color: #ff442e;
   padding-left: 5px;
@@ -75,6 +78,10 @@ header nav {
 /* Servicios */
 /* Colores */
 /* Tipografías */
+#servicios {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 #servicios h2 {
   color: #ffffff;
 }
@@ -91,6 +98,10 @@ header nav {
 /* Portafolio */
 /* Colores */
 /* Tipografías */
+#portafolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 #portafolio h2 strong {
   color: #ff442e;
 }
@@ -99,6 +110,10 @@ header nav {
 /* Clientes */
 /* Colores */
 /* Tipografías */
+#clientes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 #clientes h2 strong {
   color: #ffffff;
 }
@@ -112,6 +127,10 @@ header nav {
 /* Contacto */
 /* Colores */
 /* Tipografías */
+#contacto {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 #contacto h2 strong {
   color: #ff442e;
 }
